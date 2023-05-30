@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>faq</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style1.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/js/all.min.js">
 </head>
@@ -124,6 +124,9 @@ button.accordion-button.collapsed {
     font-size: 19px;
     font-weight: 600;
 }
+.accordion-flush .accordion-item .accordion-button {
+    border-bottom: 1px solid;
+}
 .faq-second-section button {
   background-color: #434343;
     color: #fff;
@@ -145,13 +148,49 @@ button.accordion-button.collapsed {
 }
 div#accordionFlushExample {
     border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
 }
 @media only screen and (max-width: 768px) {
   .navbar button {
     margin-left: 0;
   }
+  span#top-header-left strong {
+    font-size: 10px !important;
+    margin-right: 3px !important;
   }
+  span#top-header-left p {
+    font-size: 7px !important;
+    margin-top: 4%
+  }
+  span#top-header-right p {
+    margin: 0 4% !important;
+    font-size: 13px !important;
+}
+span#top-header-right select {
+    font-size: 10px !important;
+}
+span#top-header-right img {
+    width: 10px !important;
+  }
+ span#top-header-left img {
+    width: 8px !important;
+  } 
+  a.navbar-brand img {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+ div#navbarNavDropdown {
+    position: absolute;
+    top: 47px;
+    background-color: aliceblue;
+    width: 80%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+#footer .third .footer_peng img {
+  position: relative !important;
+  top: 0 !important;
+}
+}
 </style>
 <body>
 
@@ -161,10 +200,15 @@ div#accordionFlushExample {
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-12">
-                      <span id="top-header-left"><img src="./img/7830799_phone_actions_ring_icon.png"><strong>+9660045333</strong><p><a href="#">sales@malops.co</a></p> <p>|</p> <p><a href="./faq.html">FAQs</a></p> <p>|</p> <p><a href="./support.html">Support</a></p> </span>
-                  </div>
+                <span id="top-header-left"><img src="./img/7830799_phone_actions_ring_icon.png"><strong>+9660045333</strong><p><a href="#">sales@malops.co</a></p>
+                            <p>|</p>
+                            <p><a href="./faq-arb.html">الأسئلة الشائعة</a></p>
+                            <p>|</p>
+                            <p><a href="./support-arb.html">يدعم</a></p>
+                        </span>
+      </div>
 
-      <div class="col-md-4 col-sm-12"></div>
+      <div class="col-md-4 col-12"></div>
 
       <div class="col-md-4 col-sm-12">
                       <span id="top-header-right"><img src="./img/16014_england_english_flag_great britain_inghilterra_icon.png">
@@ -188,39 +232,38 @@ div#accordionFlushExample {
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./support.html">Support</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./faq.html">Faq</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-            </ul>
-      <button>GET STARTED</button>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index-arb.html"> بيت  </a>   </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about-arb.html">معلومات عنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./support-arb.html"> يدعم </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./faq-arb.html"> أسئلة وأجوبة </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact-arb.html"> اتصل بنا </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">مدونة</a>
+        </li>
+      </ul>
+      <button>البدء</button>
     </div>
   </div>
  </nav>
 
 
 
-<div class="frnt-banner">
+ <div class="frnt-banner">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 col-sm--12">
+        <div class="col-md-12 col-12">
             <div class="home-banner">
-              <h1>FAQs</h1>
-                <p>Find here all your questions about the <span style="color: #F07632;">maplos</span> system</p>
+              <h1>أسئلة وأجوبة</h1>
+                <p>تجد هنا جميع أسئلتك حول <span style="color: #F07632;">maplos</span> نظام</p>
        </div>
       </div>
    </div>
@@ -235,61 +278,61 @@ div#accordionFlushExample {
         <section id="faq" >
             <div class="container">
                 <div class="row">
-                  <div class="col-md-2"></div>
-                    <div class="col-8">
+                  <div class="col-md-2 col-12"></div>
+                    <div class="col-md-8 col-12">
                         <div class="accordion accordion-flush" id="accordionFlushExample">
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    What is point of sale software for restaurants?
+                                    ما هو برنامج نقاط البيع للمطاعم؟
                                 </button>
                               </h2>
                               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">POS software for restaurants is a system that helps manage and streamline operations in the food industry. It includes features such as order management, inventory control, schedule management, and payment processing.</div>
+                                <div class="accordion-body">برنامج POS للمطاعم هو نظام يساعد على إدارة وتبسيط العمليات في صناعة المواد الغذائية. يتضمن ميزات مثل إدارة الطلبات ومراقبة المخزون وإدارة الجدول ومعالجة الدفع.</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="flush-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    What are the benefits of using point of sale software in the restaurant?
+                                    ما هي فوائد استخدام برنامج نقاط البيع في المطعم؟
                                 </button>
                               </h2>
                               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">Some of the key benefits of using point of sale software include improved order accuracy, more efficient schedule management, streamlined payment processing, better inventory control, and improved customer service.</div>
+                                <div class="accordion-body">تتضمن بعض الفوائد الرئيسية لاستخدام برنامج نقاط البيع دقة الطلب المحسنة وإدارة الجداول الأكثر كفاءة ومعالجة الدفع المبسطة والتحكم الأفضل في المخزون وخدمة العملاء المحسنة</div>
                               </div>
                             </div>
                             <div class="accordion-item">
                               <h2 class="accordion-header" id="flush-headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                  How does POS software for restaurants integrate with other systems?
+                                  كيف تتكامل برامج نقاط البيع للمطاعم مع الأنظمة الأخرى؟
                                 </button>
                               </h2>
-                              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">POS software can integrate with other systems such as accounting software, inventory management software, and marketing automation software. This ensures smooth flow of data across different areas of the business.</div>
+                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">برنامج POS مع أنظمة أخرى مثل برامج المحاسبة وبرامج إدارة المخزون وبرامج أتمتة التسويق. وهذا يضمن التدفق السلس للبيانات عبر مناطق مختلفة من العمل</div>
                               </div>
                               <div class="accordion-item">
-                              <h2 class="accordion-header" id="flush-headingThree">
+                              <h2 class="accordion-header" id="flush-headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                                  How easy is it to use point of sale software for restaurants?
+                                  ما مدى سهولة استخدام برامج نقاط البيع للمطاعم؟
                                 </button>
                               </h2>
-                              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">POS software is designed to be easy to use and easy to navigate, even for those without extensive technical knowledge. A well-designed software solution will include intuitive interfaces and straightforward controls.</div>
+                              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">برنامج POS ليكون سهل الاستخدام ويمكن التنقل فيه بسهولة ، حتى لأولئك الذين ليس لديهم معرفة تقنية واسعة. سيشمل حل البرمجيات المصمم جيدًا واجهات بديهية وأدوات تحكم مباشرة</div>
                               </div>
                               <div class="accordion-item">
-                              <h2 class="accordion-header" id="flush-headingThree">
+                              <h2 class="accordion-header" id="flush-headingFive">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                                  What types of restaurants can benefit from using point of sale software?
+                                  ما أنواع المطاعم التي يمكن أن تستفيد من استخدام برامج نقاط البيع؟
                                 </button>
                               </h2>
-                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">POS software is suitable for any type of restaurant, from fast food outlets to fine dining restaurants. It can be customized to meet the specific needs of each business.</div>
+                              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">برنامج POS مناسب لأي نوع من المطاعم ، من منافذ الوجبات السريعة إلى المطاعم الفاخرة. يمكن تخصيصها لتلبية الاحتياجات المحددة لكل عمل.</div>
                               </div>
                             </div>
                           </div>
                     </div>
 
-                    <div class="col-md-2"></div>
+                    <div class="col-md-2 col-sm-12"></div>
                 </div>
             </div>
         </section>
@@ -297,14 +340,14 @@ div#accordionFlushExample {
         <div class="faq-second-section">
          <div class="container">
            <div class="row">
-             <div class="col-md-3"></div>
-             <div class="col-6">
-               <h2>Have Other Questions?</h2>
-               <p>You can communicate with us</p>
-               <button>CONNECT US</button>
+             <div class="col-md-3 col-12"></div>
+             <div class="col-6 col-12">
+               <h2>هل لديك أسئلة أخرى؟</h2>
+               <p>يمكنك التواصل معنا</p>
+               <button>اتصل بنا</button>
              </div>
            </div>
-           <div class="col-md-3"></div>
+           <div class="col-md-3 col-12"></div>
            </div>
          </div>
 
@@ -316,20 +359,20 @@ div#accordionFlushExample {
                 <div class="col-md-3 col-sm-12">
                     <div class="first">
                         <div class="title">
-                            <h3>outlet types</h3>
+                            <h3>أنواع المنافذ</h3>
                         </div>
                         <div class="type_list">
                             <ul class="items">
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Fine Dine</a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">QSR</a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Cafe</a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Food-Courts & Canteens</a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Cloud Kitchens</a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Ice-Cream & Dessert shops</a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Bakery</a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Bar & Bakery</a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Pizzeria or Pizza Shop </a></p></li>
-                                <li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Large Chains</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">غرامة العشاء</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">QSR</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">كافيه</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">صالات طعام ومقاصف</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">مطابخ كلاود</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">محلات الآيس كريم والحلويات</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">مخبز</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">بار ومخبز</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">بيتزا أو بيتزا شوب </a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">سلاسل كبيرة</a></p></li>
                             </ul>
                         </div>
                     </div>
@@ -337,16 +380,16 @@ div#accordionFlushExample {
                 <div class="col-md-2 col-sm-12">
                     <div class="second">
                         <div class="title">
-                            <h3>POS</h3>
+                            <h3>نقاط البيع</h3>
                         </div>
                         <div class="type_list">
                             <ul class="items">
-                                <li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Billing</a></p></li>
-                                <li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Inventory</a></p></li>
-                                <li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Reporting </a></p></li>
-                                <li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Menu</a></p></li>
-                                <li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">CRM</a></p></li>
-                                <li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Online Ordering</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">الفواتير</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">جرد</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">الإبلاغ </a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">قائمة طعام</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">CRM</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">الطلب على الانترنيت</a></p></li>
                             </ul>
                         </div>
                     </div>
@@ -354,13 +397,13 @@ div#accordionFlushExample {
                 <div class="col-md-3 col-sm-12">
                     <div class="third">
                         <div class="title">
-                            <h3>Add-ons</h3>
+                            <h3>الإضافات</h3>
                             <div class="type_list">
                                 <ul class="items">
-                                    <li><li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">App Market Place</a></p></li>
-                                    <li><li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Integrations</a></p></li>
-                                    <li><li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Suppliers Hub</a></p></li>
-                                    <li><li><li><p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Community</a></p></li>
+                                    <li><li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">سوق التطبيقات</a></p></li>
+                                    <li><li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">تكاملات</a></p></li>
+                                    <li><li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">مركز الموردين</a></p></li>
+                                    <li><li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">مجتمع</a></p></li>
                                 </ul>
                             </div>
                             <div class="footer_peng">
@@ -373,23 +416,23 @@ div#accordionFlushExample {
                     <div class="forth">
                         <div class="title">
                             <h3>
-                                Get in touch
+                                ابقى على تواصل
                             </h3>
                         </div>
                         <div class="sub_title">
                             <p>
-                                Manlops Food Services
+                                مانلوبس للخدمات الغذائية
                             </p>
                         </div>
                         <div class="list_item">
                             <ul style="list-style: none;">
-                                <li><span class="footer-contact"><i class="fa-solid fa-envelope"></i></span>As Sahafah, Olaya St. 6531, 3059 Riyadh 13321, Saudi Arabia </li>
+                                <li><span class="footer-contact"><i class="fa-solid fa-envelope"></i></span>الصحافة ، شارع العليا 6531 ، 3059 الرياض 13321 ، المملكة العربية السعودية </li>
                                 <li><span class="footer-contact"><i class="fa-solid fa-phone"></i></span>+9660045333</li>
                                 <li><span class="footer-contact"><i class="fa-sharp fa-solid fa-location-dot"></i></span>sales@malops.co</li>
                             </ul>
                         </div>
                         <div class="footer_logo">
-                            <a href="./index.html"><img src="./img/9.png" alt=""></a>
+                            <img src="./img/9.png" alt="">
                         </div>
                         <div class="item">
                             <p>
@@ -415,7 +458,7 @@ div#accordionFlushExample {
                     <div class="first">
                         <div class="title">
                             <p>
-                                © 2023 All rights Reserved by malops
+                                © 2023 جميع الحقوق محفوظة malops
                             </p>
                         </div>
                     </div>
@@ -424,17 +467,17 @@ div#accordionFlushExample {
                     <div class="right_item">
                         <div class="term">
                             <p>
-                                term and condition
+                                الأحكام والشروط
                             </p>
                         </div>
                         <div class="policy">
                             <p>
-                                Privacy Policy
+                                سياسة الخصوصية
                             </p>
                         </div>
                         <div class="refund">
                             <p>
-                                Cancellation & Refund Policy
+                                سياسة الإلغاء والاسترداد
                             </p>
                         </div>
                     </div>
