@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./style1.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/js/all.min.js">
 </head>
+
 <script type="text/javascript">// <![CDATA[
 function nav()
    {
@@ -18,105 +20,341 @@ function nav()
    }
 // ]]></script>
 <style type="text/css">
-    .footer-contact svg.svg-inline--fa.fa-envelope {
-    color: #F07632;
-    margin-right: 10px;
-    font-size: 22px;
+    #get{
+    padding-top: 50px;
 }
+#get .in{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#get .in .title h2{
+    font-size: 41px;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+}
+#get .in .sub_title {
+    padding-top: 25px;
+}
+#get .in .sub_title p{
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+#get .in .sub_title p span{
+    color: #F07632;
+    font-weight: bold;
+}
+/* get end */
+/* help starts */
+#help{
+    padding-top: 100px;
+}
+#help .first{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#help .first .icon{
+    background-color: #F07632;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+#help .first .icon img{
+    width: 40px;
+    height: 40px;
+}
+#help .first .title h3{
+    padding-top: 20px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Open Sans;
+    text-align: center;
+}
+#help .first .sub_title p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Open Sans; 
+    padding-top: 10px;  
+}
+/* ------ */
+#help .second{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#help .second .icon{
+    background-color: #F07632;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+#help .second .icon img{
+    width: 40px;
+    height: 40px;
+}
+#help .second .title h3{
+    padding-top: 20px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Open Sans;
+    text-align: center;
+}
+#help .second .sub_title p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Open Sans; 
+    padding-top: 10px;  
+}
+/* help end */
+#help .third{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#help .third .icon{
+    background-color: #F07632;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+#help .third .icon img{
+    width: 40px;
+    height: 40px;
+}
+#help .third .title h3{
+    padding-top: 20px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Open Sans;
+    text-align: center;
+}
+#help .third .sub_title p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Open Sans; 
+    padding-top: 10px;  
+}
+/*  */
+#help .forth{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#help .forth .icon{
+    background-color: #F07632;
+    padding: 20px 20px;
+    border-radius: 50%;
+}
+#help .forth .icon img{
+    width: 40px;
+    height: 40px;
+}
+#help .forth .title h3{
+    padding-top: 20px;
+    color: #000;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Open Sans;
+    text-align: center;
+}
+#help .forth .sub_title p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-family: Open Sans; 
+    padding-top: 10px;  
+}
+#contact{
+    padding-top: 115px;
+    padding-bottom: 100px;
+}
+#contact .left{
+    display: flex;
+    flex-direction: column;
+}
+#contact .left .title h3{
+    font-size: 41px;
+    color: #000;
+    font-weight: bold;
+}
+#contact .left .sub_title{
+    padding-top: 10px;
+}
+#contact .left .sub_title p{
+    font-size: 18px;
+    color: #000;
+}
+#contact .left .details{
+    padding-top: 54px;
+}
+#contact .form .user_name input{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+}
+#contact .form .user_name .email{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#contact .form .user_email input{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+}
+#contact .form .user_email .num{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#contact .form-group textarea{
+    width: 97%;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+#contact .cont_btn{
+    padding-top: 20px;
+}
+#contact .cont_btn button{
+    background-color: #F07632;
+    color: #fff;
+    padding: 10px 47px;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#contact .details li {
+    list-style: none;
+    font-size: 14px;
+}  
+#contact .details span{
+    padding-left: 10px;
+}
+@media (max-width:992px) {
+    #contact{
+        padding-top: 0px;
+    }
+    #contact .left .details{
+        padding-top: 5px;
+    }
+    #contact .left .sub_title p{
+        text-align: center;
+    }
+    #contact .left .title h3{
+        text-align: center;
+    }
+    #contact .form .user_name input{
+        width: 97%;
+    }
+    #contact .form .user_email input{
+        width: 97%;
+    }
+}
+
 </style>
 <body>
-    <div class="header">
 
-        <div class="top-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                        <span id="top-header-left"><img
-                                src="./img/7830799_phone_actions_ring_icon.png"><strong>+9660045333</strong>
-                            <p><a href="#">sales@malops.co</a></p>
+<div class="header">
+
+  <div class="top-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+                <span id="top-header-left"><img src="./img/7830799_phone_actions_ring_icon.png"><strong><a href="tel: +9660045333">+9660045333</a></strong><p><a href="#">sales@malops.co</a></p>
                             <p>|</p>
-                            <p>Developers</p>
-                            <p>|</p>
-                            <p>Support</p>
+                            <p><a href="./faq-arb.html">أسئلة وأجوبة</a></p>
                         </span>
-                    </div>
+      </div>
 
-                    <div class="col-md-4 col-sm-12"></div>
+      <div class="col-md-4 col-12"></div>
 
-                    <div class="col-md-4 col-sm-12">
-                      <span id="top-header-right"><img src="./img/16014_england_english_flag_great britain_inghilterra_icon.png">
+      <div class="col-md-4 col-sm-12">
+                       <span id="top-header-right"><img src="./img/16014_england_english_flag_great britain_inghilterra_icon.png">
                         <form name="myform"><select name="mylist" onchange="nav()">
                             <option>Language</option>
-                            <option value="./contact.html">English</option>
-                            <option value="./index-arb.html">Arabic</option>
+                            <option value="./contact-eng.html">English</option>
+                            <option value="./contact.html">Arabic</option>
                             </select></form><p>|</p><p>Merchant Login</p></span>
                       
                   </div>
-
-                </div>
-            </div>
-        </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html"><img src="./img/9.png"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./support.html">Support</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./faq.html">Faq</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-            </ul>
-                    <button>GET STARTED</button>
-                </div>
-            </div>
-        </nav>
-
-
-        <div class="frnt-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm--12">
-                        <div class="home-banner">
-                            <h1>Hi! We are here 
-                                to Help You!</h1>
-                            <p>Get relevant and instant solutions for your 
-                                malpos POS-related troubles!</p>
-                            <button>TRY FREE DEMO</button>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-12"></div>
-                    <div class="col-md-4 col-sm-12">
-                        <div class="home-banner-right">
-                            <img src="./pngegg(4).png">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+      
     </div>
-    <!-- navbar ends -->
+   </div>
+  </div>
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+     <a class="navbar-brand" href="./index-arb.html"><img src="./img/logo-malpos.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="./index-arb.html"> بيت  </a>   </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about-arb.html">معلومات عنا</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./support-arb.html"> يدعم </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./faq-arb.html"> أسئلة وأجوبة </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./contact-arb.html"> اتصل بنا </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">مدونة</a>
+        </li>
+      </ul>
+      <button>البدء</button>
+    </div>
+  </div>
+ </nav>
+</div>
+
+
+ <div class="frnt-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm--12">
+                <div class="home-banner">
+                    <h1>أهلاً! نحن هنا لمساعدتك!</h1>
+                        <p> احصل على حلول ذات صلة وفورية لمشاكلك المتعلقة بنقاط البيع الخاصة بك!</p>
+                        <button>جرب نسخة تجريبية مجانية</button>
+       </div>
+        </div>
+        <div class="col-md-2 col-sm-12"></div>
+        <div class="col-md-4 col-sm-12">
+      <div class="home-banner-right">
+       <img src="./img/contact-pic.png">
+     </div>
+   </div>
+    </div>
+    </div>
+   </div>
+   </div>
+
+
+
+
+
     <!-- get starts -->
     <section id="get">
         <div class="container">
@@ -125,15 +363,14 @@ function nav()
                     <div class="in">
                         <div class="title">
                             <h2>
-                                Got any issue, get in touch
+                                لديك أي مشكلة ، تواصل معنا
                             </h2>
                         </div>
                         <div class="sub_title">
                             <p>
-                                Your satisfaction is our priority, and <span>malpos</span> here to provide the support
-                                you deserve.
+                                .رضاك هو أولويتنا ، ومالبوس هنا لتقديم الدعم الذي تستحقه
                                 <br>
-                                Reach out to us today, and let us assist you in finding the best solution.
+                                .تواصل معنا اليوم ودعنا نساعدك في إيجاد أفضل حل
                             </p>
                         </div>
                     </div>
@@ -154,15 +391,15 @@ function nav()
                             </div>
                             <div class="title">
                                 <h3>
-                                    24/7 Online <br> Support
+                                    24/7 عبر الإنترنت
+                                    يدعم
                                 </h3>
                             </div>
                             <div class="sub_title">
                                 <p>
-                                    24-hour free support,
-                                    even on holidays
-                                    and weekends, for all
-                                    your POS-problems
+                                    دعم مجاني على مدار 24 ساعة ، حتى في أيام العطلات وعطلات نهاية الأسبوع ، لجميع مشاكل
+                                    نقاط البيع الخاصة بك
+
                                 </p>
                             </div>
                         </div>
@@ -174,15 +411,13 @@ function nav()
                             </div>
                             <div class="title">
                                 <h3>
-                                    On-ground <br>
-                                    Assistance
+                                    على الأرض
+                                    مساعدة
                                 </h3>
                             </div>
                             <div class="sub_title">
                                 <p>
-                                    Get in-person assistance
-                                    and personalised solution
-                                    from our POS experts
+                                    احصل على مساعدة شخصية وحل مخصص من خبراء نقاط البيع لدينا
                                 </p>
                             </div>
                         </div>
@@ -194,17 +429,13 @@ function nav()
                             </div>
                             <div class="title">
                                 <h3>
-                                    Automated
-                                    Ticket-tracking
+                                    التتبع الآلي للتذاكر
                                 </h3>
                             </div>
                             <div class="sub_title">
                                 <p>
-                                    Your queries get a
-                                    system-generated ticketing ID
-                                    and the correct department
-                                    to assist you in getting
-                                    the ideal solution
+                                    تحصل استفساراتك على معرف التذاكر الذي تم إنشاؤه بواسطة النظام والقسم الصحيح لمساعدتك
+                                    في الحصول على الحل المثالي
                                 </p>
                             </div>
                         </div>
@@ -217,15 +448,12 @@ function nav()
                             </div>
                             <div class="title">
                                 <h3>
-                                    Staff Training
-                                    & Retraining
+                                    تدريب الموظفين وإعادة تدريبهم
                                 </h3>
                             </div>
                             <div class="sub_title">
                                 <p>
-                                    Get free on-call and in-person
-                                    POS training for you
-                                    and your staff when required
+                                    احصل على تدريب شخصي مجاني عند الطلب ونقاط البيع لك ولموظفيك عند الحاجة
                                 </p>
                             </div>
                         </div>
@@ -243,25 +471,27 @@ function nav()
                     <div class="left">
                         <div class="title">
                             <h3>
-                                Contact with Us
+                                اتصل بنا
                             </h3>
                         </div>
                         <div class="sub_title">
                             <p>
-                                Be in touch with Us
+                                كن على تواصل معنا
                             </p>
                         </div>
                         <div class="details">
-                            <ul>
-                                <li>As Sahafah, Olaya St. 6531, 3059 <br>
-                                    Riyadh 13321, Saudi Arabia </li>
-                                <li>
-                                    +9660045333
+                            
+                                <li >
+                                    <img src="./img/211854_location_icon.png" alt="" style="height: 20px; margin-left: 5%; margin-bottom: 2%;" ><span> As Sahafah, Olaya St. 6531, 3059 
+                                        Riyadh 13321, Saudi Arabia </span>
+                                </li>
+                                <li class="num">
+                                    <img src="./img/7830799_phone_actions_ring_icon.png" alt="" style="height: 20px; margin-left: 5%; margin-bottom: 2%;"><span>+9660045333</span>
                                 </li>
                                 <li>
-                                    sales@malops.co
+                                    <img src="./img/icons.png"  alt="" style="height: 20px; margin-left: 5%;     margin-bottom: 2%;" ><span>sales@malops.co</span>
                                 </li>
-                            </ul>
+                                
                         </div>
                     </div>
                 </div>
@@ -271,30 +501,30 @@ function nav()
                             <div class="col-sm-6 col-md-6">
                                 <div class="user_name">
                                     <div class="name">
-                                        <input type="text" placeholder="Name" name="" id="">
+                                        <input type="text" placeholder="اسم" name="" id="">
                                     </div>
                                     <div class="email">
-                                        <input type="text" placeholder="Email" name="" id="">
+                                        <input type="text" placeholder="عنوان" name="" id="">
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-6">
                                 <div class="user_email">
                                     <div class="address">
-                                        <input type="text" placeholder="Address" name="" id="">
+                                        <input type="text" placeholder="بريد إلكتروني" name="" id="">
                                     </div>
                                     <div class="num">
-                                        <input type="text" placeholder="Phone Number" name="" id="">
+                                        <input type="text" placeholder="رقم التليفون" name="" id="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" id="exampleFormControlTextarea1"
-                                rows="8">Write Your Mesage Here</textarea>
+                                rows="8">اكتب رسالتك هنا</textarea>
                         </div>
                         <div class="cont_btn">
-                            <button>get started</button>
+                            <button>البدء</button>
                         </div>
                     </div>
                 </div>
@@ -303,56 +533,26 @@ function nav()
         </div>
     </section>
     <!-- contact ends -->
-    <section id="footer" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+<section id="footer" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-12">
                     <div class="first">
                         <div class="title">
-                            <h3>outlet types</h3>
+                            <h3>أنواع المنافذ</h3>
                         </div>
                         <div class="type_list">
                             <ul class="items">
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Fine
-                                            Dine</a></p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">QSR</a>
-                                    </p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Cafe</a></p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Food-Courts & Canteens</a></p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Cloud
-                                            Kitchens</a></p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Ice-Cream & Dessert shops</a></p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Bakery</a></p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Bar &
-                                            Bakery</a></p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Pizzeria or Pizza Shop </a></p>
-                                </li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Large
-                                            Chains</a></p>
-                                </li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">غرامة العشاء</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">QSR</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">كافيه</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">صالات طعام ومقاصف</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">مطابخ كلاود</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">محلات الآيس كريم والحلويات</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">مخبز</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">بار ومخبز</a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">بيتزا أو بيتزا شوب </a></p></li>
+                                <li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">سلاسل كبيرة</a></p></li>
                             </ul>
                         </div>
                     </div>
@@ -360,40 +560,16 @@ function nav()
                 <div class="col-md-2 col-sm-12">
                     <div class="second">
                         <div class="title">
-                            <h3>POS</h3>
+                            <h3>نقاط البيع</h3>
                         </div>
                         <div class="type_list">
                             <ul class="items">
-                                <li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Billing</a></p>
-                                </li>
-                                <li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Inventory</a></p>
-                                </li>
-                                <li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Reporting </a></p>
-                                </li>
-                                <li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                            href="#">Menu</a></p>
-                                </li>
-                                <li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">CRM</a>
-                                    </p>
-                                </li>
-                                <li>
-                                <li>
-                                    <p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">Online
-                                            Ordering</a></p>
-                                </li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">الفواتير</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">جرد</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">الإبلاغ </a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">قائمة طعام</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">CRM</a></p></li>
+                                <li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">الطلب على الانترنيت</a></p></li>
                             </ul>
                         </div>
                     </div>
@@ -401,37 +577,17 @@ function nav()
                 <div class="col-md-3 col-sm-12">
                     <div class="third">
                         <div class="title">
-                            <h3>Add-ons</h3>
+                            <h3>الإضافات</h3>
                             <div class="type_list">
                                 <ul class="items">
-                                    <li>
-                                    <li>
-                                    <li>
-                                        <p><span class="square"><i class="fa fa-angle-right"></i></span> <a href="#">App
-                                                Market Place</a></p>
-                                    </li>
-                                    <li>
-                                    <li>
-                                    <li>
-                                        <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                                href="#">Integrations</a></p>
-                                    </li>
-                                    <li>
-                                    <li>
-                                    <li>
-                                        <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                                href="#">Suppliers Hub</a></p>
-                                    </li>
-                                    <li>
-                                    <li>
-                                    <li>
-                                        <p><span class="square"><i class="fa fa-angle-right"></i></span> <a
-                                                href="#">Community</a></p>
-                                    </li>
+                                    <li><li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">سوق التطبيقات</a></p></li>
+                                    <li><li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">تكاملات</a></p></li>
+                                    <li><li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">مركز الموردين</a></p></li>
+                                    <li><li><li><p><span class="square"><i class="fa fa-angle-left"></i></span> <a href="#">مجتمع</a></p></li>
                                 </ul>
                             </div>
                             <div class="footer_peng">
-                                <img src="./img/pngegg(9).png" alt="">
+                                <a href="index-arb.html"><img src="./img/pngegg(9).png" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -440,22 +596,19 @@ function nav()
                     <div class="forth">
                         <div class="title">
                             <h3>
-                                Get in touch
+                                ابقى على تواصل
                             </h3>
                         </div>
                         <div class="sub_title">
                             <p>
-                                Manlops Food Services
+                                مانلوبس للخدمات الغذائية
                             </p>
                         </div>
                         <div class="list_item">
                             <ul style="list-style: none;">
-                                <li><span class="footer-contact"><i class="fa-solid fa-envelope"></i></span>As Sahafah,
-                                    Olaya St. 6531, 3059 Riyadh 13321, Saudi Arabia </li>
-                                <li><span class="footer-contact"><i class="fa-solid fa-phone"></i></span>+9660045333
-                                </li>
-                                <li><span class="footer-contact"><i
-                                            class="fa-sharp fa-solid fa-location-dot"></i></span>sales@malops.co</li>
+                                <li><span class="footer-contact"><i class="fa-solid fa-envelope"></i></span>الصحافة ، شارع العليا 6531 ، 3059 الرياض 13321 ، المملكة العربية السعودية </li>
+                                <li><span class="footer-contact"><i class="fa-solid fa-phone"></i></span>+9660045333</li>
+                                <li><span class="footer-contact"><i class="fa-sharp fa-solid fa-location-dot"></i></span>sales@malops.co</li>
                             </ul>
                         </div>
                         <div class="footer_logo">
@@ -485,7 +638,7 @@ function nav()
                     <div class="first">
                         <div class="title">
                             <p>
-                                © 2023 All rights Reserved by malops
+                                © 2023 جميع الحقوق محفوظة malops
                             </p>
                         </div>
                     </div>
@@ -494,33 +647,32 @@ function nav()
                     <div class="right_item">
                         <div class="term">
                             <p>
-                                term and condition
+                                الأحكام والشروط
                             </p>
                         </div>
                         <div class="policy">
                             <p>
-                                Privacy Policy
+                                سياسة الخصوصية
                             </p>
                         </div>
                         <div class="refund">
                             <p>
-                                Cancellation & Refund Policy
+                                سياسة الإلغاء والاسترداد
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section>   
     <!-- -----after footer -->
-    <!-- -----after footer -->
-
-
 
 
 
 
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./fontawesome-free-6.1.2-web/js/all.min.js"></script>
+    <script src="./app.js"></script>
 
 </body>
 
