@@ -859,7 +859,7 @@ svg.svg-inline--fa.fa-angle-right {
     margin-bottom: 10px;
 }
 #footer .forth .footer_logo{
-    margin: auto;
+    margin: 0;
 }
 #footer .forth .footer_logo img{
     height: 100px;
@@ -869,17 +869,20 @@ svg.svg-inline--fa.fa-angle-right {
     font-size: 20px;
     color: #000;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
 }
 #footer .forth .social_icon{
-    margin: auto;
+    margin: 0;
 }
 #footer .forth .social_icon img{
     width: 120px;
 }
 #footer .forth .google_play{
     padding-top: 40px;
-    margin: auto;
+    margin: 0;
+}
+ul.items {
+    padding-left: 0% !important;
 }
 /* footer ends */
 /* last starts */
